@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Hakaton.Controllers.AuthorizationController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Authorization/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "Hakaton.DTO.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hakaton.Controllers.AuthorizationController",
+    "Method": "Register",
+    "RelativePath": "api/v1/Authorization/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUserDto",
+        "Type": "Hakaton.DTO.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
